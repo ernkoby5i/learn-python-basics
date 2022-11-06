@@ -17,6 +17,7 @@ python_modules
 package.zip
 __pycache__
 local.env
+local-dev.env
 
 ### Server Less ###
 node_modules
