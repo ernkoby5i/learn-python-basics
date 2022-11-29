@@ -34,7 +34,7 @@ print("-----------------------------------------")
 print("-                                       -")
 print("-  witam w programie do nauki mnozenia  -")
 print("-                                       -")
-print("-  by ernkoby5i@gmail.com               -")
+print("-  by Ernest                            -")
 print("-----------------------------------------")
 
 i = 0
