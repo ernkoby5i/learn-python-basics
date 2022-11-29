@@ -30,6 +30,12 @@ import random
 from math import pi
 from math import sqrt as pierwiastek
 
+print("-----------------------------------------")
+print("-                                       -")
+print("-  witam w programie do nauki mnozenia  -")
+print("-                                       -")
+print("-  by ernkoby5i@gmail.com               -")
+print("-----------------------------------------")
 
 i = 0
 
@@ -43,12 +49,15 @@ while True:
     wynik_mnorzenia = a * b
     if (wynik_mnorzenia <= 30):
         i += 1
+        print("")
         odpowiedz = int(input(f"zadanie {i} - podaj wynik {a} * {b} = "))
         if (odpowiedz == a * b):
             print("BRAWO!:)")
         else:
-            print("Zła odpowiedz")
-            print("Wynik mnorzenia", wynik_mnorzenia)
+            print(f"Zła odpowiedz :(. poprawny wynik to:  {a} * {b} = {wynik_mnorzenia}")
 
-print("Koniec")
+print("")
+print("------------")
+print("-  Koniec  -")
+print("------------")
 
