@@ -6,7 +6,7 @@
 #  wypisz przy pomocy print obie liczby
 #  wczytaj liczbe odpowiedz uzywajac input
 #  sprawdz czy a x b == odpowiedz przy pomocy if
-#  jezeli prawqda wupisz BEAVO a jezeli falsz wypisz SLABO :(
+#  jezeli prawqda wupisz BRAWO :) a jezeli falsz wypisz SLABO :(
 
 # Phase 2:
 #  zamien powyzszy kod na funkcje mnozenie_odpowiedz_prawidlowa()
@@ -26,12 +26,29 @@
 
 import random
 
+import random
+from math import pi
+from math import sqrt as pierwiastek
 
 
+i = 0
 
+while True:
+    if i >= 10:
+        break
 
+    a = random.randint(2, 10)
+    b = random.randint(2, 10)
 
+    wynik_mnorzenia = a * b
+    if (wynik_mnorzenia <= 30):
+        i += 1
+        odpowiedz = int(input(f"zadanie {i} - podaj wynik {a} * {b} = "))
+        if (odpowiedz == a * b):
+            print("BRAWO!:)")
+        else:
+            print("Zła odpowiedz")
+            print("Wynik mnorzenia", wynik_mnorzenia)
 
-
-
+print("Koniec")
 
