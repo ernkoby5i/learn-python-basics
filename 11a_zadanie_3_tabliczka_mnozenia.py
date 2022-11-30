@@ -30,6 +30,30 @@ import random
 from math import pi
 from math import sqrt as pierwiastek
 
+
+# 2 liczby a,b takie ze wynik mnozenia 10 < wynik < 30
+def wylosuj_liczby_a_i_b():
+    a = 0
+    b = 0
+    while True:
+        a = random.randint(2, 10)
+        b = random.randint(2, 10)
+        wynik_mnorzenia = a * b
+        if ((wynik_mnorzenia <= 30) and (wynik_mnorzenia > 10)):
+            break
+    return (a,b)
+
+def sprawdz_ucznia(nr_zadania, a, b):
+    print("")
+    odpowiedz = int(input(f"zadanie {nr_zadania} - podaj wynik {a} * {b} = "))
+    if (odpowiedz == a * b):
+        print("BRAWO!:)")
+        return True
+    else:
+        print(f"Zła odpowiedz :(. poprawny wynik to:  {a} * {b} = {a * b}")
+        return False
+
+
 print("-----------------------------------------")
 print("-                                       -")
 print("-  witam w programie do nauki mnozenia  -")
@@ -37,25 +61,26 @@ print("-                                       -")
 print("-  by Ernest                            -")
 print("-----------------------------------------")
 
-i = 0
+questions_count = 0
+correct = 0
+incorrect = 0
 
 while True:
-    if i >= 10:
+    if questions_count == 10:
         break
+    questions_count += 1
+    (a, b) = wylosuj_liczby_a_i_b()
+    odpowiedz_jest_prawidlowa = sprawdz_ucznia(questions_count, a, b)
 
-    a = random.randint(2, 10)
-    b = random.randint(2, 10)
+    if odpowiedz_jest_prawidlowa:
+        correct = correct+1
+    else:
+        incorrect = incorrect+1
 
-    wynik_mnorzenia = a * b
-    if (wynik_mnorzenia <= 30):
-        i += 1
-        print("")
-        odpowiedz = int(input(f"zadanie {i} - podaj wynik {a} * {b} = "))
-        if (odpowiedz == a * b):
-            print("BRAWO!:)")
-        else:
-            print(f"Zła odpowiedz :(. poprawny wynik to:  {a} * {b} = {wynik_mnorzenia}")
-
+print("")
+print("złe",incorrect)
+print("Dobre",correct)
+print(f"Twoj wynik to: {correct}/{questions_count}")
 print("")
 print("------------")
 print("-  Koniec  -")
