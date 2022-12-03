@@ -17,3 +17,7 @@ print(list(range(10)))
 for y in range(0, 20, 3):
     print(y)
 
+
+print("PETLA FOR")
+for i in range(2):
+    print(f"i={i}")
