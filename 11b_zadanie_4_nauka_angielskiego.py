@@ -9,25 +9,32 @@ POWITANIE = """
 -                                           -
 -  witam w programie do nauki angielskiego  -
 -                                           -
--  by Ernest v.1.0.0          2022-12-03    -
+-  by Erni v.1.0.0            2022-12-03    -
 -                                           -
 ---------------------------------------------
 """
 
 POZEGNANIE ="""
-------------
--  Koniec  -
--  pa  pa  -
-------------
+---------------------------------------------
+-                   Koniec                  -
+-  by Erni v.1.0.0            2022-12-03    -
+---------------------------------------------
 """
 
 LISTA_ERNESTA = [("krowa", "cow"),
                ("kot", "cat"),
                ("ryba", "fish"),
                ]
-LISTA_LENY = [("pada snmieg", "snowing"),
-               ("pada", "raining"),
-               ("zimny", "cold"), ("goracy", "hot"),  ("plaszcz", "coat"), ("czapka", "hat"),
+
+
+LISTA_LENY = [("pada snieg", "snowing"), ("pada descz", "raining"),
+              ("zimny", "cold"), ("goracy", "hot"),
+              ("plaszcz", "coat"), ("czapka", "hat"),
+              ("koszulka", "t-shirt"), ("sweter", "jumper"),
+              ("spodnie", "trousers"), ("spodenki", "shorst"),
+              ("sukienka", "skirt"),
+              ("słoneczny", "sunny"), ("pochmurny", "cloudy"),
+              ("wiosna", "spring"), ("lato", "summer"), ("jesień", "autumn"), ("zima", "winter"),
                ]
 
 
@@ -46,15 +53,24 @@ def sprawdz_ucznia(SLOWA_LISTA):
     #print(x, SLOWA_LISTA[x], element, wyraz_pl, wyraz_en, odpowiedz)
 
 
+
+
 print(POWITANIE)
 imie = input("imie gracza [Lena, Ernest]:")
 
-for i in range(10):
+for i in range(5):
     print("")
     print(f"zadanie {i+1}:")
-    sprawdz_ucznia(LISTA_LENY)
+    if(imie=="Lena"):
+        sprawdz_ucznia(LISTA_LENY)
+    else:
+        sprawdz_ucznia(LISTA_ERNESTA)
 
 print(POZEGNANIE)
+print(f"pa pa, {imie}.")
+print(f"Have a nice day.")
+
+input("press enter")
 
 
 
