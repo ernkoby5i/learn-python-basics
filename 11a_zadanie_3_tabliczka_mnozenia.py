@@ -31,6 +31,25 @@ from math import pi
 from math import sqrt as pierwiastek
 
 
+
+POWITANIE = """
+---------------------------------------------
+-                                           -
+-  program do nauki tabliczki mnzenia       -
+-                                           -
+-  by Erni v.1.1.0            2022-11-29    -
+-                                           -
+---------------------------------------------
+"""
+
+POZEGNANIE ="""
+---------------------------------------------
+-                   Koniec                  -
+-  by Erni v.1.1.0            2022-11-29    -
+---------------------------------------------
+"""
+
+
 # 2 liczby a,b takie ze wynik mnozenia 10 < wynik < 30
 def wylosuj_liczby_a_i_b():
     a = 0
@@ -54,12 +73,8 @@ def sprawdz_ucznia(nr_zadania, a, b):
         return False
 
 
-print("-----------------------------------------")
-print("-                                       -")
-print("-  witam w programie do nauki mnozenia  -")
-print("-                                       -")
-print("-  by Ernest                            -")
-print("-----------------------------------------")
+print(POWITANIE)
+
 
 questions_count = 0
 correct = 0
@@ -82,7 +97,8 @@ print("złe",incorrect)
 print("Dobre",correct)
 print(f"Twoj wynik to: {correct}/{questions_count}")
 print("")
-print("------------")
-print("-  Koniec  -")
-print("------------")
+print(POZEGNANIE)
+print(f"pa pa.")
+print(f"Have a nice day.")
 
+input("press enter")

@@ -45,11 +45,11 @@ def sprawdz_ucznia(SLOWA_LISTA):
     wyraz_pl=element[0]
     wyraz_en=element[1]
 
-    odpowiedz = input(f"jak jest po angielsku {wyraz_pl} : ")
+    odpowiedz = input(f"jak jest po angielsku '{wyraz_pl}' ? : ")
     if (wyraz_en==odpowiedz):
         print("BRAWO!:)")
     else:
-        print(f"poprawna odpowiedz to", wyraz_en)
+        print(f"poprawna odpowiedz to: ", wyraz_en)
     #print(x, SLOWA_LISTA[x], element, wyraz_pl, wyraz_en, odpowiedz)
 
 
