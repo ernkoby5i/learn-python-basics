@@ -21,16 +21,22 @@ POZEGNANIE ="""
 ---------------------------------------------
 """
 
-LISTA_LENY_0 = [("owca", "sheep"), ("kaczka", "duck"),
-              ("krowa", "cow"), ("kura", "hen"),
-              ("kon", "horse"), ("kot", "cat"),
-              ("koza", "goat"), ("kurczak", "chick"),
-              ("cielak", "calf"), ("zrebak", "foal"),
-              ("mala owieczka - jagnie", "lamb"),
-              ("kaczuszka", "duckling"), ("kotek maly", "kitten")
+LENA_CHAPTER_3 = [("kuchnia", "kitchen"), ("salon", "living room"),
+                  ("sypialnia", "bedroom"), ("łazienka", "bathroom"),
+                  ("toaleta", "toilet"), ("jadalnia", "dining room"),
+                  ("hol", "hall"),
                ]
 
-LISTA_LENY_1 = [("pada snieg", "snowing"), ("pada descz", "raining"),
+LENA_CHAPTER_2 = [("owca", "sheep"), ("kaczka", "duck"),
+              ("krowa", "cow"), ("kura", "hen"),
+              ("koń", "horse"), ("kot duży", "cat"),
+              ("koza", "goat"), ("kurczak", "chick"),
+              ("cielak", "calf"), ("źrebak", "foal"),
+              ("mała owieczka - jagnie", "lamb"),
+              ("mała kaczuszka", "duckling"), ("kotek mały", "kitten")
+               ]
+
+LENA_CHAPTER_1 = [("pada snieg", "snowing"), ("pada descz", "raining"),
               ("zimny", "cold"), ("goracy", "hot"),
               ("plaszcz", "coat"), ("czapka", "hat"),
               ("koszulka", "t-shirt"), ("sweter", "jumper"),
@@ -40,7 +46,8 @@ LISTA_LENY_1 = [("pada snieg", "snowing"), ("pada descz", "raining"),
               ("wiosna", "spring"), ("lato", "summer"), ("jesień", "autumn"), ("zima", "winter"),
                ]
 
-LISTA_LENY_2 = []
+
+LISTA_ERNESTA = [("wiosna", "spring"), ("lato", "summer"), ("jesień", "autumn"), ("zima", "winter")]
 
 
 def sprawdz_ucznia(SLOWA_LISTA):
@@ -61,15 +68,18 @@ def sprawdz_ucznia(SLOWA_LISTA):
 
 
 print(POWITANIE)
+lista = LISTA_ERNESTA
 imie = input("imie gracza [Lena, Ernest]:")
+
+if (imie == "Lena"):
+    lista = LENA_CHAPTER_3
+else:
+    lista = LISTA_ERNESTA
 
 for i in range(5):
     print("")
     print(f"zadanie {i+1}:")
-    if(imie=="Lena"):
-        sprawdz_ucznia(LISTA_LENY)
-    else:
-        sprawdz_ucznia(LISTA_ERNESTA)
+    sprawdz_ucznia(lista)
 
 print(POZEGNANIE)
 print(f"pa pa, {imie}.")
