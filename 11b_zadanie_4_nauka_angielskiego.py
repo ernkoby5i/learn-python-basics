@@ -21,13 +21,16 @@ POZEGNANIE ="""
 ---------------------------------------------
 """
 
-LISTA_ERNESTA = [("krowa", "cow"),
-               ("kot", "cat"),
-               ("ryba", "fish"),
+LISTA_LENY_0 = [("owca", "sheep"), ("kaczka", "duck"),
+              ("krowa", "cow"), ("kura", "hen"),
+              ("kon", "horse"), ("kot", "cat"),
+              ("koza", "goat"), ("kurczak", "chick"),
+              ("cielak", "calf"), ("zrebak", "foal"),
+              ("mala owieczka - jagnie", "lamb"),
+              ("kaczuszka", "duckling"), ("kotek maly", "kitten")
                ]
 
-
-LISTA_LENY = [("pada snieg", "snowing"), ("pada descz", "raining"),
+LISTA_LENY_1 = [("pada snieg", "snowing"), ("pada descz", "raining"),
               ("zimny", "cold"), ("goracy", "hot"),
               ("plaszcz", "coat"), ("czapka", "hat"),
               ("koszulka", "t-shirt"), ("sweter", "jumper"),
@@ -36,6 +39,8 @@ LISTA_LENY = [("pada snieg", "snowing"), ("pada descz", "raining"),
               ("słoneczny", "sunny"), ("pochmurny", "cloudy"),
               ("wiosna", "spring"), ("lato", "summer"), ("jesień", "autumn"), ("zima", "winter"),
                ]
+
+LISTA_LENY_2 = []
 
 
 def sprawdz_ucznia(SLOWA_LISTA):
