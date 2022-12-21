@@ -9,7 +9,7 @@ POWITANIE = """
 -                                           -
 -  witam w programie do nauki angielskiego  -
 -                                           -
--  by Erni v.1.1.0            2022-12-21    -
+-  by Erni v.1.2.0            2022-12-21    -
 -                                           -
 ---------------------------------------------
 """
@@ -17,7 +17,7 @@ POWITANIE = """
 POZEGNANIE ="""
 ---------------------------------------------
 -                   Koniec                  -
--  by Erni v.1.1.0            2022-12-21    -
+-  by Erni v.1.2.0            2022-12-21    -
 ---------------------------------------------
 """
 
@@ -71,17 +71,34 @@ def sprawdz_ucznia(SLOWA_LISTA):
         blendne = blendne + 1
     #print(x, SLOWA_LISTA[x], element, wyraz_pl, wyraz_en, odpowiedz)
 
+def wybrana_lista():
+    print("Wybiesz jednol liste")
+    print("1 - LISTA_ERNESTA pory roku")
+    print("2 - LENA_CHAPTER_1 ubrania i pogoda")
+    print("3 - LENA_CHAPTER_2 zwierzaki")
+    print("4 - LENA_CHAPTER_3 pomieszczenia")
+    odpowiedz = int(input(f"podaj numer zestawu : "))
+    print(odpowiedz)
+    if(odpowiedz == 1):return LISTA_ERNESTA
+    if(odpowiedz == 2):return LENA_CHAPTER_1
+    if(odpowiedz == 3):return LENA_CHAPTER_2
+    if(odpowiedz == 4):return LENA_CHAPTER_3
+
+
+    print("niepoprawny numer za kare masz liste ernesta")
+    return LISTA_ERNESTA
 
 
 
 print(POWITANIE)
-lista = LISTA_ERNESTA
-imie = input("imie gracza [Lena, Ernest]:")
-
-if (imie == "Lena"):
-    lista = LENA_CHAPTER_3
-else:
-    lista = LISTA_ERNESTA
+#lista = LISTA_ERNESTA
+lista = wybrana_lista();
+#imie = input("imie gracza [Lena, Ernest]:")
+#
+# if (imie == "Lena"):
+#     lista = LENA_CHAPTER_3
+# else:
+#     lista = LISTA_ERNESTA
 
 for i in range(zadania_count):
     print("")
@@ -96,7 +113,7 @@ print("Odpowiedzi dobre : ",poprawne)
 print(f"Twoj wynik to    : {poprawne}/{zadania_count}")
 print("")
 print(POZEGNANIE)
-print(f"pa pa, {imie}.")
+print(f"pa pa")
 print(f"Have a nice day.")
 
 input("press enter")
