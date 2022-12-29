@@ -1,8 +1,8 @@
-
 """
-Program 4. Bardzo trudny. W cukierni jest aż 8 paczek cukierków,
-a w każdej z nich jest od 1 do 3 cukierków. Napisz program,
-który po podaniu liczby cukierków w każdej z paczek,
+Program 7.
+W cukierni jest 8 paczek cukierków,
+a w każdej z nich jest od 1 do 3 cukierków.
+Napisz program, który po podaniu liczby cukierków w każdej z paczek,
 obliczy ile najwięcej cukierków można otrzymać wybierając 4 paczki.
 ROZWIAZANY
 """
@@ -45,25 +45,5 @@ while C > 0:
         continue
 print(A)
 print(B)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

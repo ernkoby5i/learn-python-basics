@@ -6,6 +6,7 @@ który po podaniu liczby cukierków w każdej z 4 paczek obliczy,
 ile cukierków otrzyma Jaś.
 Małgosia wybiera 2 paczki,
 tak żeby Jaś dostał najwięcej cukierków.
+ROZWIAZANY
 """
 A = 0
 B = 0
