@@ -1,0 +1,1 @@
+Zadania na probe aby zapoznac sie z instalogik
