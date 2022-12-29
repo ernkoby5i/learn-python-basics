@@ -1,3 +1,13 @@
+"""
+Program 2
+dla Małgosi.
+Napisz dla Małgosi program,
+który po podaniu liczby cukierków w każdej z 4 paczek obliczy,
+ile cukierków otrzyma Jaś.
+Małgosia wybiera 2 paczki,
+tak żeby Jaś dostał najwięcej cukierków.
+"""
+
 A = 0
 B = 0
 C = 0

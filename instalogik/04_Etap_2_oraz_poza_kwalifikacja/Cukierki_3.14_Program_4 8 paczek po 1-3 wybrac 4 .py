@@ -1,6 +1,11 @@
-# mamy 8 paczek
-# w kazde 1,2 lub 3
-# wybieramy 4 paczki zeby bylo najwiecej
+
+"""
+Program 4. Bardzo trudny. W cukierni jest aż 8 paczek cukierków,
+a w każdej z nich jest od 1 do 3 cukierków. Napisz program,
+który po podaniu liczby cukierków w każdej z paczek,
+obliczy ile najwięcej cukierków można otrzymać wybierając 4 paczki.
+"""
+
 
 A = 0
 C = 8
