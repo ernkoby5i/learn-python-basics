@@ -5,6 +5,57 @@ Napisz program, który po podaniu liczby cukierków w każdej z paczek,
 obliczy ile najwięcej cukierków można otrzymać wybierając 8 paczek.
 """
 
+"""
+Rozwiazanie: 
+zapiszemy tak: 
+A - xx yy zz -> 8(xx), 7(yy), 6(zz)  
+B - xx yy zz -> 5(xx), 4(yy), 3(zz)
+C - nn yy zz ->   nn   2(yy), 1(zz) - gdzie nn to nasz licznik 
+
+przyklad: 
+
+A = 47 02 01 - 47 paczek po "8", 2 paczki po "7", 1 paczka po "6"
+C =  8 12 13 - n  mamy dobrac 8 paczek, mamy jeszcze 12 po "2" i 13 po "1"
+
+konsumyjemy najpier z A potem z B. 
+i zmniejszamy licznik w C.
+
+NA KONIEC
+ 
+jezeli nic juz nam nie zosanie w A ani B (czyli A = 0 i B = 0)
+a nasz licnzik n > 0 to znaczy ze musimy jeszcze wziac z paczek po "2" lub "1"
+
+przeniesoiemny liczni do A po to aby latwiej bylo sprawdzac czy jeszcze sa paczki po 2
+czli 
+A = 0 
+B = 0 
+C = 8 12 13
+
+musimy przniesc sobie 8 z C do A.
+i doprowadzic do 
+A = 8 
+B = 0 
+C = 12 13
+
+no i dalej to tak jak wczesniej czyli:
+
+:NEXT_PACZKA
+while A>=1 then BEGIN
+    A := A - 1 # zmniejsz licnzik 
+    if C >= 100 then 
+          C := C - 1     # zabierz paczke "2"
+          D := D + 2     # dodaj liczbe cukierkow (2) do D
+          GOTO :NEXT_PACZKA  
+    if C >=   1 then 
+          C := C - 1     # zabierz paczke "1"
+          D := D + 1     # dodaj liczbe cukierkow (1) do D
+          GOTO :NEXT_PACZKA 
+END
+   
+ 
+
+"""
+
 import random
 lista = []
 #test_lista = [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -44,6 +95,8 @@ while C >= 10000:
 
 print("PO WCZYTANIU",A, B, C)
 D = 0
+
+
 
 paczki = []
 
