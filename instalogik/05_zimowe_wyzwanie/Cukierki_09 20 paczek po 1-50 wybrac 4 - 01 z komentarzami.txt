@@ -1,0 +1,111 @@
+program 9 z komentarzami
+1. Ustaw C na 20
+2. Jeżeli C ≥ 1 skocz do następnej inaczej skocz do 91
+3. Wczytaj do D
+4. Zmniejsz C o 1
+5. Przejdź do nowej linii
+6. Wypisz napis 'C = '
+7. Wypisz pudełko C
+8. Przejdź do nowej linii
+9. Przejdź do nowej linii
+10. Wypisz napis 'A = '
+11. Wypisz pudełko A
+12. Przejdź do nowej linii
+13. Wypisz napis 'B = '
+14. Wypisz pudełko B
+15. Przejdź do nowej linii
+16. Wypisz napis 'D = '
+17. Wypisz pudełko D
+18. Przejdź do nowej linii
+19. Jeżeli A ≥ D skocz do 2 inaczej skocz do następnej
+20. Ustaw A na D
+21. Zwiększ C o 3000
+22. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 2
+23. Przejdź do nowej linii
+24. Wypisz napis 'A = '
+25. Wypisz pudełko A
+26. Przejdź do nowej linii
+27. Wypisz napis 'B = '
+28. Wypisz pudełko B
+29. Przejdź do nowej linii
+30. Wypisz napis 'D = '
+31. Wypisz pudełko D
+32. Przejdź do nowej linii
+33. Wypisz napis 'code 1 begin'
+34. Przejdź do nowej linii
+35. Zmniejsz C o 1000
+36. Ustaw D na 0
+37. Jeżeli B ≥ 10000 skocz do następnej inaczej skocz do 41
+38. Zwiększ D o 1
+39. Zmniejsz B o 10000
+40. Skocz do 37
+41. Wypisz napis 'b ='
+42. Wypisz pudełko B
+43. Przejdź do nowej linii
+44. Wypisz napis 'd ='
+45. Wypisz pudełko D
+46. Przejdź do nowej linii
+47. Wypisz napis 'code 1 end'
+48. Przejdź do nowej linii
+49. Jeżeli A > D skocz do następnej inaczej skocz do 71
+50. Wypisz napis 'code 2 begin'
+51. Przejdź do nowej linii
+52. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 56
+53. Zwiększ A o 10000
+54. Zmniejsz B o 100
+55. Skocz do 52
+56. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 60
+57. Zwiększ A o 100
+58. Zmniejsz B o 1
+59. Skocz do 56
+60. Wypisz napis 'a ='
+61. Wypisz pudełko A
+62. Przejdź do nowej linii
+63. Wypisz napis 'b ='
+64. Wypisz pudełko B
+65. Przejdź do nowej linii
+66. Wypisz napis 'code 2 koniec'
+67. Przejdź do nowej linii
+68. Ustaw B na A
+69. Ustaw A na D
+70. Skocz do 22
+71. Wypisz napis 'code 3 begin'
+72. Przejdź do nowej linii
+73. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 77
+74. Zwiększ D o 10000
+75. Zmniejsz B o 100
+76. Skocz do 73
+77. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 82
+78. Zwiększ D o 100
+79. Zmniejsz B o 1
+80. Skocz do 77
+81. Wypisz napis 'd ='
+82. Wypisz pudełko D
+83. Przejdź do nowej linii
+84. Wypisz napis 'b ='
+85. Wypisz pudełko B
+86. Przejdź do nowej linii
+87. Wypisz napis 'code 3 end'
+88. Przejdź do nowej linii
+89. Ustaw B na D
+90. Skocz do 22
+91. Wypisz napis 'code 4 begin'
+92. Przejdź do nowej linii
+93. Jeżeli B ≥ 10000 skocz do następnej inaczej skocz do 97
+94. Zmniejsz B o 10000
+95. Zwiększ A o 1
+96. Skocz do 93
+97. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 101
+98. Zmniejsz B o 100
+99. Zwiększ A o 1
+100. Skocz do 97
+101. Zwiększ A o B
+102. Wypisz pudełko A
+103. Przejdź do nowej linii
+104. Wypisz napis 'code 4 end'
+105. Przejdź do nowej linii
+106. Zwiększ D o B
+107. Wypisz pudełko A
+108. Przejdź do nowej linii
+109. Wypisz pudełko B
+110. Przejdź do nowej linii
