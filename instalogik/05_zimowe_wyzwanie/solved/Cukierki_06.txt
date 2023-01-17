@@ -1,4 +1,3 @@
-Progran 6
 1. Wczytaj do A
 2. Wczytaj do D
 3. Jeżeli A < D skocz do następnej inaczej skocz do 7

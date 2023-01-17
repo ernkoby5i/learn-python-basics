@@ -1,4 +1,3 @@
-Program 9: 2022-01-17 dziala poprawnie
 1. Ustaw C na 20
 2. Jeżeli C ≥ 1 skocz do następnej inaczej skocz do 57
 3. Wczytaj do D

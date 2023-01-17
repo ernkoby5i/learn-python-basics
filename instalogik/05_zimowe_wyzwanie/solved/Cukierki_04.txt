@@ -1,4 +1,3 @@
-Progran 4
 1. Wczytaj do A
 2. Wczytaj do B
 3. Wczytaj do C

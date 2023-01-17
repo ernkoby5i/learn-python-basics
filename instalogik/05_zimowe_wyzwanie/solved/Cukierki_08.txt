@@ -1,4 +1,3 @@
-Progran 8
 1. Ustaw C na 20000
 2. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 32
 3. Zmniejsz C o 1000
