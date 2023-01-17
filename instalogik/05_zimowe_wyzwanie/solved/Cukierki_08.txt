@@ -1,69 +1,62 @@
 1. Ustaw C na 20000
-2. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 31
+2. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 24
 3. Zmniejsz C o 1000
 4. Wczytaj do D
-5. Jeżeli D = 9 skocz do następnej inaczej skocz do 8
+5. Jeżeli D = 9 skocz do następnej inaczej skocz do 7
 6. Zwiększ A o 32768
-7. Skocz do 2
-8. Jeżeli D = 8 skocz do następnej inaczej skocz do 11
-9. Zwiększ A o 1024
-10. Skocz do 2
-11. Jeżeli D = 7 skocz do następnej inaczej skocz do 14
-12. Zwiększ A o 32
-13. Skocz do 2
-14. Jeżeli D = 6 skocz do następnej inaczej skocz do 17
-15. Zwiększ A o 1
-16. Skocz do 2
-17. Jeżeli D = 5 skocz do następnej inaczej skocz do 20
-18. Zwiększ B o 32768
-19. Skocz do 2
-20. Jeżeli D = 4 skocz do następnej inaczej skocz do 23
-21. Zwiększ B o 1024
-22. Skocz do 2
-23. Jeżeli D = 3 skocz do następnej inaczej skocz do 26
-24. Zwiększ B o 32
-25. Skocz do 2
-26. Jeżeli D = 2 skocz do następnej inaczej skocz do 29
-27. Zwiększ B o 1
-28. Skocz do 2
-29. Zwiększ C o 1
-30. Skocz do 2
-31. Ustaw D na 0
-32. Zwiększ C o 4000
-33. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 69
-34. Zmniejsz C o 1000
-35. Jeżeli A ≥ 32768 skocz do następnej inaczej skocz do 39
-36. Zwiększ D o 9
-37. Zmniejsz A o 32768
-38. Skocz do 33
-39. Jeżeli A ≥ 1024 skocz do następnej inaczej skocz do 43
-40. Zwiększ D o 8
-41. Zmniejsz A o 1024
-42. Skocz do 33
-43. Jeżeli A ≥ 32 skocz do następnej inaczej skocz do 47
-44. Zwiększ D o 7
-45. Zmniejsz A o 32
-46. Skocz do 33
-47. Jeżeli A ≥ 1 skocz do następnej inaczej skocz do 51
-48. Zwiększ D o 6
-49. Zmniejsz A o 1
-50. Skocz do 33
-51. Jeżeli B ≥ 32768 skocz do następnej inaczej skocz do 55
-52. Zwiększ D o 5
-53. Zmniejsz B o 32768
-54. Skocz do 33
-55. Jeżeli B ≥ 1024 skocz do następnej inaczej skocz do 59
-56. Zwiększ D o 4
-57. Zmniejsz B o 1024
-58. Skocz do 33
-59. Jeżeli B ≥ 32 skocz do następnej inaczej skocz do 63
-60. Zwiększ D o 3
-61. Zmniejsz B o 32
-62. Skocz do 33
-63. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 67
-64. Zwiększ D o 2
-65. Zmniejsz B o 1
-66. Skocz do 33
-67. Zwiększ D o 1
-68. Skocz do 33
-69. Wypisz pudełko D
+7. Jeżeli D = 8 skocz do następnej inaczej skocz do 9
+8. Zwiększ A o 1024
+9. Jeżeli D = 7 skocz do następnej inaczej skocz do 11
+10. Zwiększ A o 32
+11. Jeżeli D = 6 skocz do następnej inaczej skocz do 13
+12. Zwiększ A o 1
+13. Jeżeli D = 5 skocz do następnej inaczej skocz do 15
+14. Zwiększ B o 32768
+15. Jeżeli D = 4 skocz do następnej inaczej skocz do 17
+16. Zwiększ B o 1024
+17. Jeżeli D = 3 skocz do następnej inaczej skocz do 19
+18. Zwiększ B o 32
+19. Jeżeli D = 2 skocz do następnej inaczej skocz do 22
+20. Zwiększ B o 1
+21. Jeżeli D = 1 skocz do następnej inaczej skocz do 23
+22. Zwiększ C o 1
+23. Skocz do 2
+24. Ustaw D na 0
+25. Zwiększ C o 4000
+26. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 62
+27. Zmniejsz C o 1000
+28. Jeżeli A ≥ 32768 skocz do następnej inaczej skocz do 32
+29. Zwiększ D o 9
+30. Zmniejsz A o 32768
+31. Skocz do 26
+32. Jeżeli A ≥ 1024 skocz do następnej inaczej skocz do 36
+33. Zwiększ D o 8
+34. Zmniejsz A o 1024
+35. Skocz do 26
+36. Jeżeli A ≥ 32 skocz do następnej inaczej skocz do 40
+37. Zwiększ D o 7
+38. Zmniejsz A o 32
+39. Skocz do 26
+40. Jeżeli A ≥ 1 skocz do następnej inaczej skocz do 44
+41. Zwiększ D o 6
+42. Zmniejsz A o 1
+43. Skocz do 26
+44. Jeżeli B ≥ 32768 skocz do następnej inaczej skocz do 48
+45. Zwiększ D o 5
+46. Zmniejsz B o 32768
+47. Skocz do 26
+48. Jeżeli B ≥ 1024 skocz do następnej inaczej skocz do 52
+49. Zwiększ D o 4
+50. Zmniejsz B o 1024
+51. Skocz do 26
+52. Jeżeli B ≥ 32 skocz do następnej inaczej skocz do 56
+53. Zwiększ D o 3
+54. Zmniejsz B o 32
+55. Skocz do 26
+56. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 60
+57. Zwiększ D o 2
+58. Zmniejsz B o 1
+59. Skocz do 26
+60. Zwiększ D o 1
+61. Skocz do 26
+62. Wypisz pudełko D

@@ -5,12 +5,13 @@ Program 3: OK
 Program 4: OK
 Program 5: OK
 Program 6: REFACTOR 
-Program 7: REFACTOR 
+Program 7: OK 
 Program 8: OK
 Program 9: OK
 Progran 10: OK
 
-2022-01-17 315
+2022-01-17 308
+           program 8 - 7 lines
            program 7 - 3 lines
            program 8 - 3 lines
            program 10 -2 lines
