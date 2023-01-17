@@ -10,11 +10,13 @@ Program 8: OK
 Program 9: OK
 Progran 10: OK
 
-2022-01-17 308
+
+2022-01-17 306
+           program 7 - 2 lines
            program 8 - 7 lines
            program 7 - 3 lines
            program 8 - 3 lines
-           program 10 -2 lines
+           program 10 - 2 lines
 
 2022-01-17 323
            program 5 -1 lines
