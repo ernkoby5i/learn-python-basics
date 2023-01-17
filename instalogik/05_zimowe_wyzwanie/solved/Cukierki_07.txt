@@ -1,0 +1,33 @@
+Progran 7
+1. Ustaw A na 0
+2. Ustaw C na 8
+3. Ustaw D na 0
+4. Jeżeli C > 0 skocz do następnej inaczej skocz do 16
+5. Zmniejsz C o 1
+6. Wczytaj do D
+7. Jeżeli D = 3 skocz do następnej inaczej skocz do 10
+8. Zwiększ A o 100
+9. Skocz do 4
+10. Jeżeli D = 2 skocz do następnej inaczej skocz do 13
+11. Zwiększ A o 10
+12. Skocz do 4
+13. Jeżeli D = 1 skocz do następnej inaczej skocz do 4
+14. Zwiększ A o 1
+15. Skocz do 4
+16. Ustaw C na 4
+17. Ustaw B na 0
+18. Jeżeli C > 0 skocz do następnej inaczej skocz do 32
+19. Zmniejsz C o 1
+20. Jeżeli A > 100 skocz do następnej inaczej skocz do 24
+21. Zwiększ B o 3
+22. Zmniejsz A o 100
+23. Skocz do 18
+24. Jeżeli A > 10 skocz do następnej inaczej skocz do 28
+25. Zwiększ B o 2
+26. Zmniejsz A o 10
+27. Skocz do 18
+28. Jeżeli A > 1 skocz do następnej inaczej skocz do 18
+29. Zwiększ B o 1
+30. Zmniejsz A o 1
+31. Skocz do 18
+32. Wypisz pudełko B

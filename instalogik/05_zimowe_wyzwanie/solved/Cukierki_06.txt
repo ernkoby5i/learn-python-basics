@@ -1,0 +1,46 @@
+Progran 6
+1. Wczytaj do A
+2. Wczytaj do D
+3. Jeżeli A < D skocz do następnej inaczej skocz do 7
+4. Ustaw B na A
+5. Ustaw A na D
+6. Skocz do 8
+7. Ustaw B na D
+8. Wczytaj do D
+9. Jeżeli D > A skocz do następnej inaczej skocz do 14
+10. Ustaw C na B
+11. Ustaw B na A
+12. Ustaw A na D
+13. Skocz do 19
+14. Jeżeli D > B skocz do następnej inaczej skocz do 18
+15. Ustaw C na B
+16. Ustaw B na D
+17. Skocz do 19
+18. Ustaw C na D
+19. Wczytaj do D
+20. Jeżeli A < D skocz do następnej inaczej skocz do 25
+21. Ustaw C na B
+22. Ustaw B na A
+23. Ustaw A na D
+24. Skocz do 31
+25. Jeżeli B < D skocz do następnej inaczej skocz do 29
+26. Ustaw C na B
+27. Ustaw B na D
+28. Skocz do 31
+29. Jeżeli C < D skocz do następnej inaczej skocz do 31
+30. Ustaw C na D
+31. Wczytaj do D
+32. Jeżeli A < D skocz do następnej inaczej skocz do 37
+33. Ustaw C na B
+34. Ustaw B na A
+35. Ustaw A na D
+36. Skocz do 43
+37. Jeżeli B < D skocz do następnej inaczej skocz do 41
+38. Ustaw C na B
+39. Ustaw B na D
+40. Skocz do 43
+41. Jeżeli C < D skocz do następnej inaczej skocz do 43
+42. Ustaw C na D
+43. Zwiększ A o B
+44. Zwiększ A o C
+45. Wypisz pudełko A

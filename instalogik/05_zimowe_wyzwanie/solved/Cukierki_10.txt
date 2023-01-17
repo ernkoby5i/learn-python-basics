@@ -1,0 +1,75 @@
+Progran 10
+1. Ustaw C na 500000
+2. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 29
+3. Wczytaj do D
+4. Zmniejsz C o 10000
+5. Jeżeli D = 8 skocz do następnej inaczej skocz do 8
+6. Zwiększ A o 10000
+7. Skocz do 2
+8. Jeżeli D = 7 skocz do następnej inaczej skocz do 11
+9. Zwiększ A o 100
+10. Skocz do 2
+11. Jeżeli D = 6 skocz do następnej inaczej skocz do 14
+12. Zwiększ A o 1
+13. Skocz do 2
+14. Jeżeli D = 5 skocz do następnej inaczej skocz do 17
+15. Zwiększ B o 10000
+16. Skocz do 2
+17. Jeżeli D = 4 skocz do następnej inaczej skocz do 20
+18. Zwiększ B o 100
+19. Skocz do 2
+20. Jeżeli D = 3 skocz do następnej inaczej skocz do 23
+21. Zwiększ B o 1
+22. Skocz do 2
+23. Jeżeli D = 2 skocz do następnej inaczej skocz do 26
+24. Zwiększ C o 100
+25. Skocz do 2
+26. Jeżeli D = 1 skocz do następnej inaczej skocz do 2
+27. Zwiększ C o 1
+28. Skocz do 2
+29. Ustaw D na 0
+30. Zwiększ C o 80000
+31. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 58
+32. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 36
+33. Zmniejsz A o 10000
+34. Zwiększ D o 8
+35. Skocz do 56
+36. Jeżeli A ≥ 100 skocz do następnej inaczej skocz do 40
+37. Zmniejsz A o 100
+38. Zwiększ D o 7
+39. Skocz do 56
+40. Jeżeli A ≥ 1 skocz do następnej inaczej skocz do 44
+41. Zmniejsz A o 1
+42. Zwiększ D o 6
+43. Skocz do 56
+44. Jeżeli B ≥ 10000 skocz do następnej inaczej skocz do 48
+45. Zmniejsz B o 10000
+46. Zwiększ D o 5
+47. Skocz do 56
+48. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 52
+49. Zmniejsz B o 100
+50. Zwiększ D o 4
+51. Skocz do 56
+52. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 58
+53. Zmniejsz B o 1
+54. Zwiększ D o 3
+55. Skocz do 56
+56. Zmniejsz C o 10000
+57. Skocz do 31
+58. Ustaw A na 0
+59. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 63
+60. Zwiększ A o 10000
+61. Zmniejsz C o 10000
+62. Skocz do 59
+63. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 74
+64. Jeżeli C ≥ 100 skocz do następnej inaczej skocz do 69
+65. Zmniejsz C o 100
+66. Zwiększ D o 2
+67. Zmniejsz A o 10000
+68. Skocz do 63
+69. Jeżeli C ≥ 1 skocz do następnej inaczej skocz do 63
+70. Zmniejsz C o 1
+71. Zwiększ D o 1
+72. Zmniejsz A o 10000
+73. Skocz do 63
+74. Wypisz pudełko D

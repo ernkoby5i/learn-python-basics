@@ -1,0 +1,18 @@
+Progran 5
+1. Ustaw A na 0
+2. Ustaw B na 0
+3. Ustaw C na 4
+4. Ustaw D na 0
+5. Jeżeli C > 0 skocz do następnej inaczej skocz do 16
+6. Zmniejsz C o 1
+7. Wczytaj do D
+8. Jeżeli D > A skocz do następnej inaczej skocz do 12
+9. Ustaw B na A
+10. Ustaw A na D
+11. Skocz do 5
+12. Jeżeli D > B skocz do następnej inaczej skocz do 5
+13. Ustaw A na A
+14. Ustaw B na D
+15. Skocz do 5
+16. Zwiększ A o B
+17. Wypisz pudełko A

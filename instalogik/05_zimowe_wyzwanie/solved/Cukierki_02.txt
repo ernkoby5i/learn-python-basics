@@ -1,0 +1,5 @@
+Progran 2
+1. Wczytaj do A
+2. Wczytaj do B
+3. Zwiększ A o B
+4. Wypisz pudełko A

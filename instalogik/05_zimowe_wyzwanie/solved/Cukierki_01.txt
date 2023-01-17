@@ -1,0 +1,3 @@
+Progran 1
+1. Wczytaj do A
+2. Wypisz pudełko A
