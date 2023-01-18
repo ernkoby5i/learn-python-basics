@@ -1,8 +1,8 @@
 TODO
 Program 1: OK
 Program 2: OK
-Program 3: OK
-Program 4: OK
+Program 3: TODO -1 lniea 5: B:=A
+Program 4: TODO -2 lina 6: B:=A; 9: C:=B DEL 10, 7   
 Program 5: OK
 Program 6: REFACTOR 
 Program 7: OK 
