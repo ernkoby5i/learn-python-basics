@@ -1,8 +1,8 @@
 TODO
 Program 1: OK
 Program 2: OK
-Program 3: TODO -1 lniea 5: B:=A
-Program 4: TODO -2 lina 6: B:=A; 9: C:=B DEL 10, 7   
+Program 3: OK
+Program 4: OK   
 Program 5: OK
 Program 6: REFACTOR 
 Program 7: OK 
@@ -10,6 +10,9 @@ Program 8: OK
 Program 9: OK
 Progran 10: OK
 
+2022-01-17 303
+           program 3 - 1 lines
+           program 4 - 2 lines
 
 2022-01-17 306
            program 7 - 2 lines
@@ -30,6 +33,21 @@ Progran 10: OK
 
 
 ***************************************************
+2022-01-21 12:00 
+   2 Cukierki_01.txt
+   4 Cukierki_02.txt
+   5 Cukierki_03.txt
+   9 Cukierki_04.txt
+  13 Cukierki_05.txt
+  45 Cukierki_06.txt
+  25 Cukierki_07.txt
+  62 Cukierki_08.txt
+  66 Cukierki_09 20 paczek po 1-50 wybrac 4 - 02 bez logowania.txt
+  72 Cukierki_10.txt
+303 total
+
+
+
 2022-01-17 22:52 322 lines refactor programy 1-5
    2 Cukierki_01.txt
    4 Cukierki_02.txt

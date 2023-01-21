@@ -1,6 +1,5 @@
 1. Wczytaj do A
 2. Wczytaj do B
-3. Jeżeli A > B skocz do następnej inaczej skocz do 6
-4. Wypisz pudełko A
-5. Skocz do końca
-6. Wypisz pudełko B
+3. Jeżeli A > B skocz do następnej inaczej skocz do 5
+4. Ustaw B na A
+5. Wypisz pudełko B
