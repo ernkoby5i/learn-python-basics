@@ -1,45 +1,41 @@
-1. Wczytaj do A
-2. Wczytaj do D
-3. Jeżeli A < D skocz do następnej inaczej skocz do 7
-4. Ustaw B na A
-5. Ustaw A na D
-6. Skocz do 8
-7. Ustaw B na D
-8. Wczytaj do D
-9. Jeżeli D > A skocz do następnej inaczej skocz do 14
-10. Ustaw C na B
-11. Ustaw B na A
-12. Ustaw A na D
-13. Skocz do 19
-14. Jeżeli D > B skocz do następnej inaczej skocz do 18
-15. Ustaw C na B
-16. Ustaw B na D
-17. Skocz do 19
-18. Ustaw C na D
-19. Wczytaj do D
-20. Jeżeli A < D skocz do następnej inaczej skocz do 25
-21. Ustaw C na B
-22. Ustaw B na A
-23. Ustaw A na D
-24. Skocz do 31
-25. Jeżeli B < D skocz do następnej inaczej skocz do 29
-26. Ustaw C na B
-27. Ustaw B na D
-28. Skocz do 31
-29. Jeżeli C < D skocz do następnej inaczej skocz do 31
-30. Ustaw C na D
-31. Wczytaj do D
-32. Jeżeli A < D skocz do następnej inaczej skocz do 37
-33. Ustaw C na B
-34. Ustaw B na A
-35. Ustaw A na D
-36. Skocz do 43
-37. Jeżeli B < D skocz do następnej inaczej skocz do 41
-38. Ustaw C na B
-39. Ustaw B na D
-40. Skocz do 43
-41. Jeżeli C < D skocz do następnej inaczej skocz do 43
-42. Ustaw C na D
-43. Zwiększ A o B
-44. Zwiększ A o C
-45. Wypisz pudełko A
+s1. Wczytaj do C
+2. Wczytaj do B
+3. Jeżeli B > C skocz do następnej inaczej skocz do 7
+4. Ustaw D na C
+5. Ustaw C na B
+6. Ustaw B na D
+7. Wczytaj do A
+8. Jeżeli A > B skocz do następnej inaczej skocz do 12
+9. Ustaw D na A
+10. Ustaw A na B
+11. Ustaw B na D
+12. Jeżeli B > C skocz do następnej inaczej skocz do 16
+13. Ustaw D na B
+14. Ustaw B na C
+15. Ustaw C na D
+16. Wczytaj do D
+17. Jeżeli A ≤ D skocz do następnej inaczej skocz do 19
+18. Ustaw A na D
+19. Jeżeli A > B skocz do następnej inaczej skocz do 23
+20. Ustaw D na A
+21. Ustaw A na B
+22. Ustaw B na D
+23. Jeżeli B > C skocz do następnej inaczej skocz do 27
+24. Ustaw D na B
+25. Ustaw B na C
+26. Ustaw C na D
+27. Wczytaj do D
+28. Jeżeli A ≤ D skocz do następnej inaczej skocz do 30
+29. Ustaw A na D
+30. Jeżeli A > B skocz do następnej inaczej skocz do 34
+31. Ustaw D na A
+32. Ustaw A na B
+33. Ustaw B na D
+34. Jeżeli B > C skocz do następnej inaczej skocz do 38
+35. Ustaw D na B
+36. Ustaw B na C
+37. Ustaw C na D
+38. Zwiększ A o B
+39. Zwiększ A o C
+40. Wypisz pudełko A
+

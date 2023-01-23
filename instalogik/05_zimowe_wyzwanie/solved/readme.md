@@ -10,7 +10,11 @@ Program 8: OK
 Program 9: OK
 Progran 10: OK
 
-2022-01-17 303
+
+2022-01-22 298
+           program 6 - 5 lines erni
+
+2022-01-21 303
            program 3 - 1 lines
            program 4 - 2 lines
 
