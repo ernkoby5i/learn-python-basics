@@ -1,11 +1,9 @@
 1. Wczytaj do A
 2. Wczytaj do B
 3. Wczytaj do C
-4. Jeżeli A > B skocz do następnej inaczej skocz do 8
-5. Jeżeli A > C skocz do następnej inaczej skocz do 11
-6. Wypisz pudełko A
-7. Skocz do końca
-8. Jeżeli B > C skocz do następnej inaczej skocz do 11
-9. Wypisz pudełko B
-10. Skocz do końca
-11. Wypisz pudełko C
+4. Jeżeli A > B skocz do następnej inaczej skocz do 7
+5. Jeżeli A > C skocz do następnej inaczej skocz do 9
+6. Ustaw B na A
+7. Jeżeli B > C skocz do następnej inaczej skocz do 9
+8. Ustaw C na B
+9. Wypisz pudełko C
