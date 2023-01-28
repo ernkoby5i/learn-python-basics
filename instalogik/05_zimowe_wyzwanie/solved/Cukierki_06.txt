@@ -1,41 +1,30 @@
-s1. Wczytaj do C
+1. Wczytaj do A
 2. Wczytaj do B
-3. Jeżeli B > C skocz do następnej inaczej skocz do 7
-4. Ustaw D na C
-5. Ustaw C na B
-6. Ustaw B na D
-7. Wczytaj do A
-8. Jeżeli A > B skocz do następnej inaczej skocz do 12
-9. Ustaw D na A
-10. Ustaw A na B
-11. Ustaw B na D
-12. Jeżeli B > C skocz do następnej inaczej skocz do 16
-13. Ustaw D na B
-14. Ustaw B na C
-15. Ustaw C na D
-16. Wczytaj do D
-17. Jeżeli A ≤ D skocz do następnej inaczej skocz do 19
-18. Ustaw A na D
-19. Jeżeli A > B skocz do następnej inaczej skocz do 23
-20. Ustaw D na A
-21. Ustaw A na B
-22. Ustaw B na D
-23. Jeżeli B > C skocz do następnej inaczej skocz do 27
-24. Ustaw D na B
-25. Ustaw B na C
-26. Ustaw C na D
-27. Wczytaj do D
-28. Jeżeli A ≤ D skocz do następnej inaczej skocz do 30
-29. Ustaw A na D
-30. Jeżeli A > B skocz do następnej inaczej skocz do 34
-31. Ustaw D na A
-32. Ustaw A na B
-33. Ustaw B na D
-34. Jeżeli B > C skocz do następnej inaczej skocz do 38
-35. Ustaw D na B
-36. Ustaw B na C
-37. Ustaw C na D
-38. Zwiększ A o B
-39. Zwiększ A o C
-40. Wypisz pudełko A
-
+3. Wczytaj do C
+4. Zwiększ A o 30000
+5. Zwiększ B o 30000
+6. Zwiększ C o 30000
+7. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 28
+8. Zmniejsz C o 10000
+9. Zmniejsz A o 10000
+10. Zmniejsz B o 10000
+11. Zmniejsz D o 10000
+12. Jeżeli B < A skocz do następnej inaczej skocz do 16
+13. Ustaw D na A
+14. Ustaw A na B
+15. Ustaw B na D
+16. Jeżeli C < A skocz do następnej inaczej skocz do 20
+17. Ustaw D na A
+18. Ustaw A na C
+19. Ustaw C na D
+20. Jeżeli C ≥ 1000 skocz do następnej inaczej skocz do 7
+21. Wczytaj do D
+22. Zwiększ D o 10000
+23. Jeżeli C ≥ 20000 skocz do następnej inaczej skocz do 25
+24. Zwiększ D o 10000
+25. Jeżeli D > A skocz do następnej inaczej skocz do 27
+26. Ustaw A na D
+27. Skocz do 7
+28. Zwiększ A o B
+29. Zwiększ A o C
+30. Wypisz pudełko A

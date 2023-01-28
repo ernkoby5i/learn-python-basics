@@ -1,5 +1,5 @@
 1. Ustaw C na 500000
-2. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 28
+2. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 26
 3. Wczytaj do D
 4. Zmniejsz C o 10000
 5. Jeżeli D = 8 skocz do następnej inaczej skocz do 8
@@ -20,53 +20,47 @@
 20. Jeżeli D = 3 skocz do następnej inaczej skocz do 23
 21. Zwiększ B o 1
 22. Skocz do 2
-23. Jeżeli D = 2 skocz do następnej inaczej skocz do 26
+23. Jeżeli D = 2 skocz do następnej inaczej skocz do 25
 24. Zwiększ C o 100
 25. Skocz do 2
-26. Zwiększ C o 1
-27. Skocz do 2
-28. Ustaw D na 0
-29. Zwiększ C o 80000
-30. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 57
-31. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 35
-32. Zmniejsz A o 10000
-33. Zwiększ D o 8
-34. Skocz do 55
-35. Jeżeli A ≥ 100 skocz do następnej inaczej skocz do 39
-36. Zmniejsz A o 100
-37. Zwiększ D o 7
-38. Skocz do 55
-39. Jeżeli A ≥ 1 skocz do następnej inaczej skocz do 43
-40. Zmniejsz A o 1
-41. Zwiększ D o 6
-42. Skocz do 55
-43. Jeżeli B ≥ 10000 skocz do następnej inaczej skocz do 47
-44. Zmniejsz B o 10000
-45. Zwiększ D o 5
-46. Skocz do 55
-47. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 51
-48. Zmniejsz B o 100
-49. Zwiększ D o 4
-50. Skocz do 55
-51. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 57
-52. Zmniejsz B o 1
-53. Zwiększ D o 3
-54. Skocz do 55
-55. Zmniejsz C o 10000
-56. Skocz do 30
-57. Ustaw A na 0
-58. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 62
-59. Zwiększ A o 10000
-60. Zmniejsz C o 10000
-61. Skocz do 58
-62. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 72
-63. Jeżeli C ≥ 100 skocz do następnej inaczej skocz do 68
-64. Zmniejsz C o 100
-65. Zwiększ D o 2
-66. Zmniejsz A o 10000
-67. Skocz do 62
-68. Zmniejsz C o 1
-69. Zwiększ D o 1
-70. Zmniejsz A o 10000
-71. Skocz do 62
-72. Wypisz pudełko D
+26. Ustaw D na 0
+27. Zwiększ C o 80000
+28. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 54
+29. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 33
+30. Zmniejsz A o 10000
+31. Zwiększ D o 8
+32. Skocz do 52
+33. Jeżeli A ≥ 100 skocz do następnej inaczej skocz do 37
+34. Zmniejsz A o 100
+35. Zwiększ D o 7
+36. Skocz do 52
+37. Jeżeli A ≥ 1 skocz do następnej inaczej skocz do 41
+38. Zmniejsz A o 1
+39. Zwiększ D o 6
+40. Skocz do 52
+41. Jeżeli B ≥ 10000 skocz do następnej inaczej skocz do 45
+42. Zmniejsz B o 10000
+43. Zwiększ D o 5
+44. Skocz do 52
+45. Jeżeli B ≥ 100 skocz do następnej inaczej skocz do 49
+46. Zmniejsz B o 100
+47. Zwiększ D o 4
+48. Skocz do 52
+49. Jeżeli B ≥ 1 skocz do następnej inaczej skocz do 54
+50. Zmniejsz B o 1
+51. Zwiększ D o 3
+52. Zmniejsz C o 10000
+53. Skocz do 28
+54. Ustaw A na 0
+55. Jeżeli C ≥ 10000 skocz do następnej inaczej skocz do 59
+56. Zwiększ A o 10000
+57. Zmniejsz C o 10000
+58. Skocz do 55
+59. Jeżeli A ≥ 10000 skocz do następnej inaczej skocz do 66
+60. Jeżeli C ≥ 100 skocz do następnej inaczej skocz do 63
+61. Zmniejsz C o 100
+62. Zwiększ D o 1
+63. Zwiększ D o 1
+64. Zmniejsz A o 10000
+65. Skocz do 59
+66. Wypisz pudełko D

@@ -1,25 +1,22 @@
 1. Ustaw C na 8
-2. Jeżeli C > 0 skocz do następnej inaczej skocz do 12
+2. Jeżeli C > 0 skocz do następnej inaczej skocz do 10
 3. Zmniejsz C o 1
 4. Wczytaj do D
 5. Jeżeli D = 3 skocz do następnej inaczej skocz do 7
 6. Zwiększ A o 100
-7. Jeżeli D = 2 skocz do następnej inaczej skocz do 10
+7. Jeżeli D = 2 skocz do następnej inaczej skocz do 9
 8. Zwiększ A o 10
-9. Jeżeli D = 1 skocz do następnej inaczej skocz do 11
-10. Zwiększ A o 1
-11. Skocz do 2
-12. Ustaw C na 4
-13. Jeżeli C > 0 skocz do następnej inaczej skocz do 25
-14. Zmniejsz C o 1
-15. Jeżeli A > 100 skocz do następnej inaczej skocz do 19
-16. Zwiększ B o 3
-17. Zmniejsz A o 100
-18. Skocz do 13
-19. Jeżeli A > 10 skocz do następnej inaczej skocz do 23
-20. Zwiększ B o 2
-21. Zmniejsz A o 10
-22. Skocz do 13
-23. Zwiększ B o 1
-24. Skocz do 13
-25. Wypisz pudełko B
+9. Skocz do 2
+10. Ustaw C na 4
+11. Jeżeli C ≥ 1 skocz do następnej inaczej skocz do 22
+12. Zmniejsz C o 1
+13. Jeżeli A ≥ 100 skocz do następnej inaczej skocz do 17
+14. Zwiększ B o 3
+15. Zmniejsz A o 100
+16. Skocz do 11
+17. Jeżeli A ≥ 10 skocz do następnej inaczej skocz do 20
+18. Zwiększ B o 1
+19. Zmniejsz A o 10
+20. Zwiększ B o 1
+21. Skocz do 11
+22. Wypisz pudełko B
