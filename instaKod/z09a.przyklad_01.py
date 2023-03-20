@@ -35,12 +35,12 @@ print(tablica)
 
 i=0
 while i<5:
-    print(tablica[i], end=', ')
+    print(tablica[i])
     i+=1
 
 i=0
 while i<5:
-    print(tablica[i], end=', ')
+    print(tablica[i])
     i+=1
 
 
