@@ -102,6 +102,7 @@ def wybrana_lista():
     print("2 - LENA_UNIT_2 zwierzaki")
     print("3 - LENA_UNIT_3 pomieszczenia")
     print("4 - LENA_UNIT_4 czesci ciala dolegliwosci")
+
     odpowiedz = int(input(f"podaj numer zestawu : "))
     print(odpowiedz)
     if(odpowiedz == 0):return LISTA_ERNESTA
@@ -109,6 +110,7 @@ def wybrana_lista():
     if(odpowiedz == 2):return LENA_CHAPTER_2
     if(odpowiedz == 3):return LENA_CHAPTER_3
     if(odpowiedz == 4): return LENA_CHAPTER_4
+
 
 
     print("niepoprawny numer za kare masz liste Ernesta")
