@@ -19,25 +19,48 @@ POZEGNANIE ="""
 
 
 
-LENA_MIESIACE_RZYMSKIE = [  ("Styczen", "I"), ("Luty", "II"),
-                    ("Marzec", "III"), ("Kwiecien", "IV"),
-                    ("Maj", "V"), ("Czerwiec", "VI"),
-                    ("Lipiec", "VII"), ("Sierpien", "VIII"),
-                    ("Wrzesien", "IX"),
-                    ("Pazdziernik", "X"),
-                    ("Listopad", "XI"),
-                    ("Grudzień", "XII"),
-                    ("7.09", "7 XIX"),
-                    ("24.06", "24 VI"),
-                    ("1.05", "1 V"),
-                    ("24.12", "24 XII"),
-                    ("1.01", "1 I"),
-                    ("1 czerwca", "1 VI"),
+LENA_MIESIACE_RZYMSKIE = [
+                            ("napisz rzymskimi ", "Styczen", "I"),
+                            ("napisz rzymskimi ", "Luty", "II"),
+                            ("napisz rzymskimi ", "Marzec", "III"),
+                            ("napisz rzymskimi ", "Kwiecien", "IV"),
+                            ("napisz rzymskimi ", "Maj", "V"),
+                            ("napisz rzymskimi ", "Czerwiec", "VI"),
+                            ("napisz rzymskimi ", "Lipiec", "VII"),
+                            ("napisz rzymskimi ", "Sierpien", "VIII"),
+                            ("napisz rzymskimi ", "Wrzesien", "IX"),
+                            ("napisz rzymskimi ", "Pazdziernik", "X"),
+                            ("napisz rzymskimi ", "Listopad", "XI"),
+                            ("napisz rzymskimi ", "Grudzień", "XII"),
+                          ]
+
+LENA_ILE_DNI_MA_MIESIAC = [
+                            ("ile dni ma ", "Styczen", "31"),
+                            ("ile dni ma ", "Luty", "28"),
+                            ("ile dni ma ", "Marzec", "31"),
+                            ("ile dni ma ", "Kwiecien", "30"),
+                            ("ile dni ma ", "Maj", "31"),
+                            ("ile dni ma ", "Czerwiec", "30"),
+                            ("ile dni ma ", "Lipiec", "31"),
+                            ("ile dni ma ", "Sierpien", "31"),
+                            ("ile dni ma ", "Wrzesien", "30"),
+                            ("ile dni ma ", "Pazdziernik", "31"),
+                            ("ile dni ma ", "Listopad", "30"),
+                            ("ile dni ma ", "Grudzień", "31"),
+]
+
+LENA_ZAPISZ_DATE = [
+                            ("napisz miesiac rzymskimi", "1.04", "7 IV"),
+                            ("napisz miesiac rzymskimi", "7.09", "7 IX"),
+                            ("napisz miesiac rzymskimi", "24.06", "24 VI"),
+                            ("napisz miesiac rzymskimi", "1.05", "1 V"),
+                            ("napisz miesiac rzymskimi", "24.12", "24 XII"),
+                            ("napisz miesiac rzymskimi", "1.01", "1 I"),
+                            ("napisz miesiac rzymskimi", "1 czerwca", "1 VI"),
                     ]
 
-LISTA_ERNESTA = [("wiosna", "spring"), ("lato", "summer"), ("jesień", "autumn"), ("zima", "winter")]
 
-zadania_count = 10
+zadania_count = 20
 poprawne = 0
 blendne = 0
 
@@ -45,13 +68,14 @@ def sprawdz_ucznia(SLOWA_LISTA):
     global blendne
     global poprawne
     ilosc_elementow=len(SLOWA_LISTA)
-    x=random.randint(0, ilosc_elementow -1)
+    x=random.randint(0, ilosc_elementow - 1)
     element=SLOWA_LISTA[x]
-    pytanie=element[0]
-    odpowiedz=element[1]
+    pytanie   = element[0]
+    zadanie   = element[1]
+    odpowiedz = element[2]
 
-    odpowiedz_ucznia = input(f"jak bedzie '{pytanie}' ? : ")
-    if (odpowiedz==odpowiedz_ucznia):
+    odpowiedz_ucznia = input(pytanie + " " + zadanie + " ? : ")
+    if (odpowiedz.upper()==odpowiedz_ucznia.upper()):
         print("OK :)")
         poprawne = poprawne + 1
     else:
@@ -59,19 +83,23 @@ def sprawdz_ucznia(SLOWA_LISTA):
         blendne = blendne + 1
 
 def wybrana_lista():
-    print("Wybiesz jedna liste")
-    print("0 - LISTA_ERNESTA pory roku")
+    print("Wybiesz  zestaw zadan:")
     print("1 - LENA_MIESIACE_RZYMSKIE np. grudzien -> XII")
+    print("2 - LENA_ILE_DNI_MA_MIESIAC np. grudzien -> 31")
+    print("3 - LENA_ZAPISZ_DATE np. 1.01 -> 01 I")
+    print("4 - LENA mieszkane zadania z datami")
 
     odpowiedz = int(input(f"podaj numer zestawu : "))
     print(odpowiedz)
-    if (odpowiedz == 0):return LISTA_ERNESTA
     if (odpowiedz == 1): return LENA_MIESIACE_RZYMSKIE
+    if (odpowiedz == 2): return LENA_ILE_DNI_MA_MIESIAC
+    if (odpowiedz == 3): return LENA_ZAPISZ_DATE
+    if (odpowiedz == 4): return LENA_ZAPISZ_DATE + LENA_ILE_DNI_MA_MIESIAC + LENA_MIESIACE_RZYMSKIE
 
 
 
     print("niepoprawny numer za kare masz liste Ernesta")
-    return LISTA_ERNESTA
+    return LENA_MIESIACE_RZYMSKIE
 
 
 
