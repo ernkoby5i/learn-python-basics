@@ -1,16 +1,3 @@
-TODO
-Program 1: OK
-Program 2: OK
-Program 3: OK
-Program 4: OK   
-Program 5: OK
-Program 6: OK 
-Program 7: OK 
-Program 8: OK
-Program 9: OK
-Progran 10: OK
-
-
 2022-01-28 276 
            program  6 - 30 (-10) 
            program  7 - 22 (-3)
